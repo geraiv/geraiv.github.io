@@ -6,7 +6,7 @@ function setup(){
     noCanvas();
     video = createCapture(VIDEO);
     //video.size(floor(windowWidth / 8), floor(windowHeight / 12));
-    //video.size(120,70)
+    video.size(120,70)
     video.hide();
     
     asciiDiv = select("#ascii")
@@ -36,4 +36,5 @@ function draw() {
 function windowRezised() {
     video.size(floor(windowWidth / 8), floor.windowHeight / 12);
 }
+
 
